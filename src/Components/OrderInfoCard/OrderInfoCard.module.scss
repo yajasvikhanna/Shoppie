@@ -1,0 +1,19 @@
+.info-section-width {
+  width: 70%;
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  .product-details-amount {
+    width: 75%;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
